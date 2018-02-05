@@ -1,0 +1,16 @@
+{
+  "name": "getir-hackathon-2018",
+  "version": "1.0.0",
+  "description": "Getir Semih Ozturk Hackathon 2018 - Omer Karisman",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Okaris",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.0.3",
+    "restify": "^6.3.4"
+  }
+}
