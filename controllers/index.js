@@ -13,8 +13,8 @@ exports.home = (req, res, next) => {
 
   data.Records.find({
       'createdAt': {
-        '$gte': new Date(query.startDate).toISOString(),
-        '$lte': new Date(query.endDate).toISOString()
+        '$gte': new Date(query.startDate),
+        '$lte': new Date(query.endDate)
       },
       'counts': {
         '$elemMatch': {
