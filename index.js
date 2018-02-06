@@ -10,6 +10,7 @@ server.get('/', (req, res, next) => {
 });
 
 server.post('/', mainController.home);
+server.post('/searchRecord', mainController.home);
 
 var port = process.env.PORT || 8080;
 server.listen(port, function() {
